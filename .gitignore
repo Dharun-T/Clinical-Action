@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Local data and generated outputs
+data/raw/*
+data/interim/*
+data/processed/*
+outputs/models/*
+outputs/figures/*
+outputs/reports/*
+
+# Keep directory placeholders in Git
+!.gitkeep

@@ -1,0 +1,14 @@
+{
+  "feature_importance_method": "Permutation importance on the held-out patient-group test partition",
+  "model": "C:\\Users\\Vinothini\\OneDrive\\Desktop\\projects\\CAS\\models\\phase3\\best_model.joblib",
+  "dataset": "C:\\Users\\Vinothini\\OneDrive\\Desktop\\projects\\CAS\\data\\processed\\clinical_actionability_demo_temporal_v2.csv",
+  "development_only": true,
+  "artifacts": {
+    "model_comparison": "results/model_comparison.csv",
+    "ablation_results": "results/ablation_results.csv",
+    "laboratory_results": "results/laboratory_results.csv",
+    "calibration_metrics": "results/calibration_metrics.json",
+    "feature_importance": "results/feature_importance.csv",
+    "feature_importance_figure": "figures/feature_importance.png"
+  }
+}

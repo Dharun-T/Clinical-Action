@@ -1,0 +1,12 @@
+{
+  "dataset": "C:\\Users\\Vinothini\\OneDrive\\Desktop\\projects\\CAS\\data\\processed\\clinical_actionability_demo_temporal_v2.csv",
+  "feature_set": "Phase 2 laboratory, temporal, patient, admission, and prescription-frequency features",
+  "split": "GroupShuffleSplit with subject_id groups; 80/20 seeded split",
+  "random_state": 42,
+  "train_rows": 12201,
+  "test_rows": 2703,
+  "train_patients": 80,
+  "test_patients": 20,
+  "best_model": "xgboost",
+  "development_only": true
+}

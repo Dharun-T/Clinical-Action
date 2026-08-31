@@ -1,0 +1,13 @@
+{
+  "raw_brier_score": 0.07884781062602997,
+  "calibrated_brier_score": 0.07972338816784436,
+  "raw_roc_auc": 0.9182908640655119,
+  "calibrated_roc_auc": 0.9182908640655119,
+  "fit_patients": 60,
+  "calibration_patients": 20,
+  "test_patients": 20,
+  "calibration_method": "sigmoid",
+  "cas_definition": "CAS = selected P(Clinical Action = 1), preferring calibrated probability only when calibration lowers held-out Brier score",
+  "cas_probability_source": "raw",
+  "development_only": true
+}

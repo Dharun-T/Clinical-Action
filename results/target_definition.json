@@ -1,0 +1,18 @@
+{
+  "target_column": "clinical_action_proxy",
+  "positive_class": "A new provider order with order_type='Lab' and transaction_type='New' occurs strictly after the candidate lab charttime and within 24 hours for the same hadm_id.",
+  "negative_class": "No qualifying new laboratory provider order occurs in that 24-hour window for the same admission.",
+  "prediction_time": "candidate laboratory charttime",
+  "observation_window_hours": 24,
+  "source_table": "hosp.poe",
+  "join_keys": [
+    "subject_id",
+    "hadm_id"
+  ],
+  "timestamp_columns": {
+    "candidate_lab": "charttime",
+    "action_event": "ordertime"
+  },
+  "causal_limitation": "Temporal proximity does not prove that the laboratory report caused the order. This is a measurable workflow proxy for the MIMIC-IV Demo 2.2 development dataset.",
+  "development_only": true
+}

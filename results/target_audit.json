@@ -1,0 +1,14 @@
+{
+  "rows": 14904,
+  "patients": 100,
+  "positive_rows": 10795,
+  "negative_rows": 4109,
+  "positive_rate": 0.7243022007514761,
+  "target_recomputed_from_source": true,
+  "leakage_audit": {
+    "forbidden_current_result_columns_present": false,
+    "duplicate_prediction_units": 0,
+    "negative_time_since_previous_count": 0
+  },
+  "development_only": true
+}
